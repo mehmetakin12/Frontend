@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8">
+		<title>Date Object</title>
+	</head>
+	<body>
+	  <script>
+	  	var maanden = new Array('januari','februari','maart','april','mei','juni','juli','augustus','september','oktober','november','december');
+	  	var weekdag = new Array('zondag','maandag','dinsdag','woensdag','donderdag','vrijdag','zaterdag');
+	  	var m = getMonth(maanden);
+	  	document.write('<br> Maand is: '+ m);
+	  	var w = getDay(weekdag);
+	  	document.write('<br> Maand is: '+ w);
+	  	
+	  	var vandaag = new Date();
+	  	document.write('<br>Vandaag is: '+vandaag);
+	  </script>
+	</body>
+</html>
