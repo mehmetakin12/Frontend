@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	  <script>
+	  	doorgaan = confirm('Opgave 55: Doorgaan');
+	  	if(doorgaan == true) {
+	  		alert('Welkom bij de if-else/opdracht');
+	  	}
+	  	if(doorgaan == true) {
+	  		alert('Opgave 55: Klik op OK om te beginnen');
+
+	  	} else {
+	  		alert('Tot ziens!');
+	  	}
+
+	  	if(doorgaan == true) {
+	  		leeftijd = parseInt(prompt('Wat is je leeftijd?'));
+	  	if(leeftijd < 17){
+	  	oudgenoeg = true;
+	  	} else {
+	  		oudgenoeg = false;
+	  	}	
+	  	creditcard = confirm('Heb je een creditcard?');
+	  	if(creditcard && leeftijd) {
+	  		alert('Je mag 1000 euro lenen');
+	  	}
+	  	if(!creditcard && leeftijd) {
+	  		alert('Je mag alleen 500 euro lenen');
+	  	}
+	  	else {
+	  		alert(
+	  			'Je mag geen geld lenen');
+	  		}
+	  	}
+	  </script>
+	</body>
+</html>
